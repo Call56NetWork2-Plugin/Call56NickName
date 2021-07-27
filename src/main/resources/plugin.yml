@@ -1,0 +1,18 @@
+name: Call56NickName
+version: ${project.version}
+main: com.kinoko2k.call56nickname.Call56nickname
+api-version: 1.17
+authors: [ Kinoko_Teams ]
+description: /nick de NickName wo henko dekiru plugin
+
+commands:
+  nick:
+    description: Set/unset a nickname
+    usage: /nick [nickname]
+    permission: simplenick.nick
+    permission-message: You don't have <permission>
+
+permissions:
+  call56.nick:
+    description: Allow to set or unset nickname
+    default: true
